@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
-  *main - Entery point
+  * main - Entery point
   *
-  *Return - always 0 (succeess)
+  * Return - Always 0 (succeess)
   */
 int main(void)
 {
