@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
   *main - Entery point
-  *return - always 0 for succeess
+  *
+  *Return - always 0 (succeess)
   */
 int main(void)
 {
