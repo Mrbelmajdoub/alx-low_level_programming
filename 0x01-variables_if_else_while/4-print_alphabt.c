@@ -8,19 +8,14 @@ int main(void)
 {
 	char x = 'a';
 
+	char e = 'e';
+
+	char q = 'q';
+
 	for (x = 'a'; x <= 'z'; x++)
 	{
+		if (x != e && x != q)
 		putchar(x);
-		if (x == 'd')
-		{
-			x++;
-		} else if (x == 'p')
-		{
-			x++;
-		} else
-		{
-
-		}
 	}
 	putchar('\n');
 	return (0);
