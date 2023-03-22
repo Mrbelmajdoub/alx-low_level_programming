@@ -4,7 +4,7 @@
   *
   * Return: always 0.
   */
-void times_tible(void)
+void times_table(void)
 {
 	int l;
 
@@ -12,11 +12,11 @@ void times_tible(void)
 
 	int r;
 
-	for (l = 0; l < 10; l++)
+	for (l = 0; l <= 9; l++)
 	{
 		_putchar('0');
 		_putchar(',');
-		for (c = 1; c < 10; c++)
+		for (c = 1; c <= 9; c++)
 		{
 			r = c * l;
 			if (r < 10)
@@ -24,7 +24,8 @@ void times_tible(void)
 				_putchar(' ');
 			}
 			_putchar(' ');
-			_putchar(r + '0');
+			_putchar((r / 10) + '0');
+			_putchar((r % 10) + '0');
 			if (c < 9)
 			{
 				_putchar(',');
